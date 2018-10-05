@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.qa.tests.UserInfoTest" duration-ms="6461" started-at="2018-10-04T16:40:12Z" finished-at="2018-10-04T16:40:19Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="6461" started-at="2018-10-04T16:40:12Z" finished-at="2018-10-04T16:40:19Z">
+      <class name="com.qa.tests.UserInfoTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.UserInfoTest@2286778]" name="setup" is-config="true" duration-ms="6" started-at="2018-10-04T22:10:13Z" finished-at="2018-10-04T22:10:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getUserDetailswithCorrectIdTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.UserInfoTest@2286778]" name="getUserDetailswithCorrectIdTest" duration-ms="4306" started-at="2018-10-04T22:10:13Z" data-provider="getData" finished-at="2018-10-04T22:10:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[George]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bluth]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDetailswithCorrectIdTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qa.tests.UserInfoTest@2286778]" name="quit" is-config="true" duration-ms="397" started-at="2018-10-04T22:10:17Z" finished-at="2018-10-04T22:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.UserInfoTest@2286778]" name="setup" is-config="true" duration-ms="1" started-at="2018-10-04T22:10:18Z" finished-at="2018-10-04T22:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getUserDetailswithCorrectIdTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.UserInfoTest@2286778]" name="getUserDetailswithCorrectIdTest" duration-ms="777" started-at="2018-10-04T22:10:18Z" data-provider="getData" finished-at="2018-10-04T22:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Janet]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Weaver]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDetailswithCorrectIdTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.qa.tests.UserInfoTest@2286778]" name="quit" is-config="true" duration-ms="96" started-at="2018-10-04T22:10:19Z" finished-at="2018-10-04T22:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.qa.tests.UserInfoTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.qa.tests.UserInfoTest -->
+</testng-results>
